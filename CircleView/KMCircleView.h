@@ -6,7 +6,7 @@
 //  Copyright © 2016 Programming&Occults. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 /*direction of drawing the path*/
 typedef NS_ENUM(NSInteger, direction){

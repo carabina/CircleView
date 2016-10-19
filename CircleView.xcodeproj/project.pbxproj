@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1407CB71DB7851300BF4EA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1407CB61DB7851300BF4EA9 /* UIKit.framework */; };
 		A151C9F41DB76FF4004F686A /* CircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = A151C9F21DB76FF4004F686A /* CircleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A151C9FC1DB773C9004F686A /* KMCircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = A151C9FA1DB773C9004F686A /* KMCircleView.h */; };
 		A151C9FD1DB773C9004F686A /* KMCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A151C9FB1DB773C9004F686A /* KMCircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A1407CB61DB7851300BF4EA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A151C9EF1DB76FF4004F686A /* CircleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A151C9F21DB76FF4004F686A /* CircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
 		A151C9F31DB76FF4004F686A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -25,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1407CB71DB7851300BF4EA9 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,6 +37,7 @@
 		A151C9E51DB76FF4004F686A = {
 			isa = PBXGroup;
 			children = (
+				A1407CB61DB7851300BF4EA9 /* UIKit.framework */,
 				A151C9F11DB76FF4004F686A /* CircleView */,
 				A151C9F01DB76FF4004F686A /* Products */,
 			);
@@ -297,6 +301,7 @@
 				A151C9F91DB76FF4004F686A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

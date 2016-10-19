@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "A simple animated CircleView."
   s.description = File.read('README.md')
-  s.homepage     = "http://github.com/kmkrn/CircleView"
+  s.homepage     = "https://github.com/kmkrn/CircleView"
 
 s.license      = { :type => 'Academic Free License ("AFL") v. 3.0', :text => <<-LICENSE
 Academic Free License ("AFL") v. 3.0
@@ -40,11 +40,10 @@ LICENSE
   # s.social_media_url   = "http://twitter.com/Programming&Occults"
 
 
-  s.source       = { :git => "http://EXAMPLE/CircleView.git", :tag => "#{s.version}" }
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source       = { :git => "https://github.com/kmkrn/CircleView.git", :tag => "#{s.version}" }
+  s.source_files  = "CircleView/**/*.{h,m}"
 
-  # s.public_header_files = "Classes/**/*.h"
+  # s.public_header_files = "dotpay_mobile_sdk_ios_1.0.3/lib/CircleView.framework/CircleView/*.h"
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
