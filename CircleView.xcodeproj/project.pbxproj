@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		A151C9F41DB76FF4004F686A /* CircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = A151C9F21DB76FF4004F686A /* CircleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A151C9FC1DB773C9004F686A /* KMCircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = A151C9FA1DB773C9004F686A /* KMCircleView.h */; };
+		A151C9FD1DB773C9004F686A /* KMCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A151C9FB1DB773C9004F686A /* KMCircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A151C9EF1DB76FF4004F686A /* CircleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A151C9F21DB76FF4004F686A /* CircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
 		A151C9F31DB76FF4004F686A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A151C9FA1DB773C9004F686A /* KMCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMCircleView.h; sourceTree = "<group>"; };
+		A151C9FB1DB773C9004F686A /* KMCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMCircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				A151C9F21DB76FF4004F686A /* CircleView.h */,
+				A151C9FA1DB773C9004F686A /* KMCircleView.h */,
+				A151C9FB1DB773C9004F686A /* KMCircleView.m */,
 				A151C9F31DB76FF4004F686A /* Info.plist */,
 			);
 			path = CircleView;
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A151C9F41DB76FF4004F686A /* CircleView.h in Headers */,
+				A151C9FC1DB773C9004F686A /* KMCircleView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A151C9FD1DB773C9004F686A /* KMCircleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

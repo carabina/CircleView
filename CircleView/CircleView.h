@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <CircleView/KMCircleView.h>
 //! Project version number for CircleView.
 FOUNDATION_EXPORT double CircleViewVersionNumber;
 
